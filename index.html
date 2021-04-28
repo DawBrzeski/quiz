@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz HTML</title>
+    <script defer src="js/script.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header__mainHeader">HTML/CSS/Javascript TEST</h1>
+        <p class="header__paragraph">Specialization: Front end developer </p>
+        <p class="header__paragraph">Level: 3/5</p>
+    </header>
+    <div class="formContainer">
+        <form class="form js-form" name="quiz">
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Question 1
+                </legend>
+                <p class="form__question">Before HTML5, application data was stored in: </p>
+                <label class="form__label" for="q1a">
+                    <input class="form__input" name="q1" id="q1a" type="radio" value="0">user's local computer
+                </label>
+                <label class="form__label" for="q1b">
+                    <input class="form__input" name="q1" id="q1b" type="radio" value="0">web storage </label>
+                <label class="form__label" for="q1c">
+                    <input class="form__input" name="q1" id="q1c" type="radio" value="1"><span
+                        class="code js-correct">cookies </span> </label>
+                <label class="form__label" for="q1d">
+                    <input class="form__input" name="q1" id="q1d" type="radio" value="0">server
+                </label>
+            </fieldset>
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Question 2
+                </legend>
+                <p class="form__question">What are the type of HTML5 web storage?</p>
+                <label class="form__label" for="q2a">
+                    <input class="form__input" name="q2" id="q2a" type="radio" value="0">HTML storage
+                </label>
+                <label class="form__label" for="q2b">
+                    <input class="form__input" name="q2" id="q2b" type="radio" value="1"><span
+                        class="code js-correct">localStorage</span>
+                </label>
+                <label class="form__label" for="q2c">
+                    <input class="form__input" name="q2" id="q2c" type="radio" value="0">userStorage
+                </label>
+                <label class="form__label" for="q2d">
+                    <input class="form__input" name="q2" id="q2d" type="radio" value="0">webStorage
+                </label>
+            </fieldset>
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Question 3
+                </legend>
+                <p class="form__question">With the Geolocation API, you can obtain...</p>
+                <label class="form__label" for="q3a">
+                    <input class="form__input" name="q3" id="q3a" type="radio" value="0">...browser version
+                </label>
+                <label class="form__label" for="q3b">
+                    <input class="form__input" name="q3" id="q3b" type="radio" value="0">...local storage
+                </label>
+                <label class="form__label" for="q3c">
+                    <input class="form__input" name="q3" id="q3c" type="radio" value="0">...a map of the world
+                </label>
+                <label class="form__label" for="q3d">
+                    <input class="form__input" name="q3" id="q3d" type="radio" value="1"><span
+                        class="code js-correct">...user
+                        location</span>
+                </label>
+            </fieldset>
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Question 4
+                </legend>
+                <p class="form__question">Which choice is the mandatory parameter of the getCurrentPosition() method?
+                </p>
+                <label class="form__label" for="q4a">
+                    <input class="form__input" name="q4" id="q4a" type="radio" value="0">showPosition
+                </label>
+                <label class="form__label" for="q4b">
+                    <input class="form__input" name="q4" id="q4b" type="radio" value="0">errorHandler
+                </label>
+                <label class="form__label" for="q4c">
+                    <input class="form__input" name="q4" id="q4c" type="radio" value="0">options
+                </label>
+                <label class="form__label" for="q4d">
+                    <input class="form__input" name="q4" id="q4d" type="radio" value="1"><span
+                        class="code js-correct">showLocation</span>
+                </label>
+            </fieldset>
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Question 5
+                </legend>
+                <p class="form__question">What tag do you need to use to enclose the JavaScript code?</p>
+                <label class="form__label" for="q5a">
+                    <input class="form__input" name="q5" id="q5a" type="radio" value="0">style
+                </label>
+                <label class="form__label" for="q5b">
+                    <input class="form__input" name="q5" id="q5b" type="radio" value="1"><span
+                        class="code js-correct">script</span>
+                </label>
+                <label class="form__label" for="q5c">
+                    <input class="form__input" name="q5" id="q5c" type="radio" value="0">code
+                </label>
+                <label class="form__label" for="q5d">
+                    <input class="form__input" name="q5" id="q5d" type="radio" value="0">body
+            </fieldset>
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Question 6
+                </legend>
+                <p class="form__question">How do we tell JavaScript that we're working with a variable?
+                </p>
+                <label class="form__label" for="q6a">
+                    <input class="form__input" name="q6" id="q6a" type="radio" value="1"><span
+                        class="code js-correct">var</span>
+                </label>
+                <label class="form__label" for="q6b">
+                    <input class="form__input" name="q6" id="q6b" type="radio" value="0">variable
+                </label>
+                <label class="form__label" for="q6c">
+                    <input class="form__input" name="q6" id="q6c" type="radio" value="0">int
+                </label>
+                <label class="form__label" for="q6d">
+                    <input class="form__input" name="q6" id="q6d" type="radio" value="0">vrb
+                </label>
+            </fieldset>
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Question 7
+                </legend>
+                <p class="form__question">What does a single line comment look like in JavaScript? </p>
+                <label class="form__label" for="q7a">
+                    <input class="form__input" name="q7" id="q7a" type="radio" value="0">%% this is a comment
+                </label>
+                <label class="form__label" for="q7b">
+                    <input class="form__input" name="q7" id="q7b" type="radio" value="0">!! this is a comment
+                </label>
+                <label class="form__label" for="q7c">
+                    <input class="form__input" name="q7" id="q7c" type="radio" value="1"><span
+                        class="code js-correct">// this is a
+                        comment</span>
+                </label>
+                <label class="form__label" for="q7d">
+                    <input class="form__input" name="q7" id="q7d" type="radio" value="0">** this is a comment
+                </label>
+            </fieldset>
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Question 8
+                </legend>
+                <p class="form__question">Which of the following is the escape character?</p>
+                <label class="form__label" for="q8a">
+                    <input class="form__input" name="q8" id="q8a" type="radio" value="0">"
+                </label>
+                <label class="form__label" for="q8b">
+                    <input class="form__input" name="q8" id="q8b" type="radio" value="0">/*
+                </label>
+                <label class="form__label" for="q8c">
+                    <input class="form__input" name="q8" id="q8c" type="radio" value="0">/
+                </label>
+                <label class="form__label" for="q8d">
+                    <input class="form__input" name="q8" id="q8d" type="radio" value="1"><span
+                        class="code js-correct">\</span>
+                </label>
+            </fieldset>
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Question 9
+                </legend>
+                <p class="form__question">Which value does the Boolean data type accept?</p>
+                <label class="form__label" for="q9a">
+                    <input class="form__input" name="q9" id="q9a" type="radio" value="0">right
+                </label>
+                <label class="form__label" for="q9b">
+                    <input class="form__input" name="q9" id="q9b" type="radio" value="1"><span
+                        class="code js-correct">false</span>
+                </label>
+                <label class="form__label" for="q9c">
+                    <input class="form__input" name="q9" id="q9c" type="radio" value="0">wrong
+                </label>
+                <label class="form__label" for="q9d">
+                    <input class="form__input" name="q9" id="q9d" type="radio" value="0">sure
+                </label>
+            </fieldset>
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Question 10
+                </legend>
+                <p class="form__question">What will the following statements display? <br>var test=5+7;
+                    <br>document.write(test);
+                </p>
+                <label class="form__label" for="q10a">
+                    <input class="form__input" name="q10" id="q10a" type="radio" value="0">5+7
+                </label>
+                <label class="form__label" for="q10b">
+                    <input class="form__input" name="q10" id="q10b" type="radio" value="0">Test
+                </label>
+                <label class="form__label" for="q10c">
+                    <input class="form__input" name="q10" id="q10c" type="radio" value="0">Nothing
+                </label>
+                <label class="form__label" for="q10d">
+                    <input class="form__input" name="q10" id="q10d" type="radio" value="1"><span
+                        class="code js-correct">12</span>
+                </label>
+            </fieldset>
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Question 11
+                </legend>
+                <p class="form__question">What’s the result of using a modulus operator for 38%5?</p>
+                <label class="form__label" for="q11a">
+                    <input class="form__input" name="q11" id="q11a" type="radio" value="0">0
+                </label>
+                <label class="form__label" for="q11b">
+                    <input class="form__input" name="q11" id="q11b" type="radio" value="0">1
+                </label>
+                <label class="form__label" for="q11c">
+                    <input class="form__input" name="q11" id="q11c" type="radio" value="0">2
+                </label>
+                <label class="form__label" for="q11d">
+                    <input class="form__input" name="q11" id="q11d" type="radio" value="1"><span
+                        class="code js-correct">3</span>
+                </label>
+            </fieldset>
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Question 12
+                </legend>
+                <p class="form__question"> What are increment and decrement are used for?</p>
+                <label class="form__label" for="q12a">
+                    <input class="form__input" name="q12" id="q12a" type="radio" value="0">Are useless
+                </label>
+                <label class="form__label" for="q12śb">
+                    <input class="form__input" name="q12" id="q12b" type="radio" value="0">To get the remainder of the
+                    division of two
+                    numbers
+                </label>
+                <label class="form__label" for="q12c">
+                    <input class="form__input" name="q12" id="q12c" type="radio" value="0">To change the sign of the
+                    number to "+" or "-"
+                </label>
+                <label class="form__label" for="q12d">
+                    <input class="form__input" name="q12" id="q12d" type="radio" value="1"><span
+                        class="code js-correct">Adding or
+                        subtracting 1 from a number</span>
+                </label>
+            </fieldset>
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Question 13
+                </legend>
+                <p class="form__question">Calculate and select the resulting value of this expression: <br>var result =
+                    20; <br>result *= 5;
+                </p>
+                <label class="form__label" for="q13a">
+                    <input class="form__input" name="q13" id="q13a" type="radio" value="0">5
+                </label>
+                <label class="form__label" for="q13b">
+                    <input class="form__input" name="q13" id="q13b" type="radio" value="0">4
+                </label>
+                <label class="form__label" for="q13c">
+                    <input class="form__input" name="q13" id="q13c" type="radio" value="0">25
+                </label>
+                <label class="form__label" for="q13d">
+                    <input class="form__input" name="q13" id="q13d" type="radio" value="1"><span
+                        class="code js-correct">100</span>
+                </label>
+            </fieldset>
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Question 14
+                </legend>
+                <p class="form__question">Logical AND (&&) returns true if:</p>
+                <label class="form__label" for="q14a">
+                    <input class="form__input" name="q14" id="q14a" type="radio" value="0">If both will have diffrend
+                    value
+                </label>
+                <label class="form__label" for="q14b">
+                    <input class="form__input" name="q14" id="q14b" type="radio" value="0">If only one of the operands
+                    is true
+                </label>
+                <label class="form__label" for="q14c">
+                    <input class="form__input" name="q14" id="q14c" type="radio" value="0">If one of the operands is
+                    true, but not both
+                </label>
+                <label class="form__label" for="q14d">
+                    <input class="form__input" name="q14" id="q14d" type="radio" value="1"><span
+                        class="code js-correct">If both operands
+                        are true</span>
+                </label>
+            </fieldset>
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Question 15
+                </legend>
+                <p class="form__question">What’s the output of the following code? <br>var x = "50"; <br>var y = "100";
+                    document.write(x+y);<br> </p>
+                <label class="form__label" for="q15a">
+                    <input class="form__input" name="q15" id="q15a" type="radio" value="0">Null
+                </label>
+                <label class="form__label" for="q15b">
+                    <input class="form__input" name="q15" id="q15b" type="radio" value="0">150
+                </label>
+                <label class="form__label" for="q15c">
+                    <input class="form__input" name="q15" id="q15c" type="radio" value="0">5000
+                </label>
+                <label class="form__label" for="q15d">
+                    <input class="form__input" name="q15" id="q15d" type="radio" value="1"><span
+                        class="code js-correct">50100</span>
+                </label>
+            </fieldset>
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Question 16
+                </legend>
+                <p class="form__question">Which of these names are acceptable for JavaScript variables?</p>
+                <label class="form__label" for="q16a">
+                    <input class="form__input" name="q16" id="q16a" type="radio" value="0">total%sum
+                </label>
+                <label class="form__label" for="q16b">
+                    <input class="form__input" name="q16" id="q16b" type="radio" value="0">150
+                </label>
+                <label class="form__label" for="q16c">
+                    <input class="form__input" name="q16" id="q16c" type="radio" value="0">1var
+                </label>
+                <label class="form__label" for="q16d">
+                    <input class="form__input" name="q16" id="q16d" type="radio" value="1"><span
+                        class="code js-correct">_module</span>
+                </label>
+            </fieldset>
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Question 17
+                </legend>
+                <p class="form__question">What's the result of the expression var1&&var2, if var1=true and var2=false?
+                </p>
+                <label class="form__label" for="q17a">
+                    <input class="form__input" name="q17" id="q17a" type="radio" value="0">true
+                </label>
+                <label class="form__label" for="q17b">
+                    <input class="form__input" name="q17" id="q17b" type="radio" value="0">right
+                </label>
+                <label class="form__label" for="q17c">
+                    <input class="form__input" name="q17" id="q17c" type="radio" value="0">undefinied
+                </label>
+                <label class="form__label" for="q17d">
+                    <input class="form__input" name="q17" id="q17d" type="radio" value="1"><span
+                        class="code js-correct">false</span>
+                </label>
+            </fieldset>
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Question 18
+                </legend>
+                <p class="form__question">What happens if the tested condition is false?</p>
+                <label class="form__label" for="q18a">
+                    <input class="form__input" name="q18" id="q18a" type="radio" value="0">The code in the braces is
+                    executed anyway
+                </label>
+                <label class="form__label" for="q18b">
+                    <input class="form__input" name="q18" id="q18b" type="radio" value="0">The code's execution will be
+                    stopped
+                </label>
+                <label class="form__label" for="q18c">
+                    <input class="form__input" name="q18" id="q18c" type="radio" value="0">Error on website
+                </label>
+                <label class="form__label" for="q18d">
+                    <input class="form__input" name="q18" id="q18d" type="radio" value="1"><span
+                        class="code js-correct">The code does
+                        nothing and moves to the next section
+                    </span>
+                </label>
+            </fieldset>
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Question 19
+                </legend>
+                <p class="form__question">The "else" statement is created to do what?</p>
+                <label class="form__label" for="q19a">
+                    <input class="form__input" name="q19" id="q19a" type="radio" value="0">Ignore the condition testing
+                </label>
+                <label class="form__label" for="q19b">
+                    <input class="form__input" name="q19" id="q19b" type="radio" value="0">Tell JavaScript to
+                    execute something if the
+                    condition is true
+                </label>
+                <label class="form__label" for="q19c">
+                    <input class="form__input" name="q19" id="q19c" type="radio" value="0">Test a new condition for
+                    true or false
+                </label>
+                <label class="form__label" for="q19d">
+                    <input class="form__input" name="q19" id="q19d" type="radio" value="1"><span
+                        class="code js-correct">Tell
+                        JavaScript to execute something if the condition is false</span>
+                </label>
+            </fieldset>
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Question 20
+                </legend>
+                <p class="form__question">What keyword is used to end the "else if" statement?</p>
+                <label class="form__label" for="q20a">
+                    <input class="form__input" name="q20" id="q20a" type="radio" value="0">stop
+                </label>
+                <label class="form__label" for="q20b">
+                    <input class="form__input" name="q20" id="q20b" type="radio" value="0">start
+                </label>
+                <label class="form__label" for="q20c">
+                    <input class="form__input" name="q20" id="q20c" type="radio" value="0">end
+                </label>
+                <label class="form__label" for="q20d">
+                    <input class="form__input" name="q20" id="q20d" type="radio" value="1"><span
+                        class="code js-correct">else</span>
+                </label>
+            </fieldset>
+
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Question 21
+                </legend>
+                <p class="form__question">The switch statement can be used to replace…</p>
+                <label class="form__label" for="q21a">
+                    <input class="form__input" name="q21" id="q21a" type="radio" value="0">variable declarations
+                </label>
+                <label class="form__label" for="q21b">
+                    <input class="form__input" name="q21" id="q21b" type="radio" value="0">flexbox
+                </label>
+                <label class="form__label" for="q21c">
+                    <input class="form__input" name="q21" id="q21c" type="radio" value="0">comments
+                </label>
+                <label class="form__label" for="q21d">
+                    <input class="form__input" name="q21" id="q21d" type="radio" value="1"><span
+                        class="code js-correct">multiple if else
+                        statements</span>
+                </label>
+            </fieldset>
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Question 22
+                </legend>
+                <p class="form__question">How many "case" statements are usually used in the "switch" statement?</p>
+                <label class="form__label" for="q22a">
+                    <input class="form__input" name="q22" id="q22a" type="radio" value="0">2 - for "true" and "false"
+                </label>
+                <label class="form__label" for="q22b">
+                    <input class="form__input" name="q22" id="q22b" type="radio" value="0">Max 10
+                </label>
+                <label class="form__label" for="q22c">
+                    <input class="form__input" name="q22" id="q22c" type="radio" value="0">Only 5
+                </label>
+                <label class="form__label" for="q22d">
+                    <input class="form__input" name="q22" id="q22d" type="radio" value="1"><span
+                        class="code js-correct">One for each
+                        possible answer
+                    </span>
+                </label>
+            </fieldset>
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Question 23
+                </legend>
+                <p class="form__question">What’s the output of this code?<br>var x = 3;<br>switch (x) {<br>case
+                    1:<br>document.write(x);<br>break;<br>case 2:<br>document.write(x+2);<br>break;<br>default:<br>
+                    document.write(x+5);<br>}</p>
+                <label class="form__label" for="q23a">
+                    <input class="form__input" name="q23" id="q23a" type="radio" value="0">5
+                </label>
+                <label class="form__label" for="q23b">
+                    <input class="form__input" name="q23" id="q23b" type="radio" value="0">3
+                </label>
+                <label class="form__label" for="q23c">
+                    <input class="form__input" name="q23" id="q23c" type="radio" value="0">2
+                </label>
+                <label class="form__label" for="q23d">
+                    <input class="form__input" name="q23" id="q23d" type="radio" value="1"><span
+                        class="code js-correct">8</span>
+                </label>
+            </fieldset>
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Question 24
+                </legend>
+                <p class="form__question">The "default" statement is used … (switch)</p>
+                <label class="form__label" for="q24a">
+                    <input class="form__input" name="q24" id="q24a" type="radio" value="0">Because it is obligatory
+                </label>
+                <label class="form__label" for="q24b">
+                    <input class="form__input" name="q24" id="q24b" type="radio" value="0">To finish the "case"
+                    statement
+                </label>
+                <label class="form__label" for="q24c">
+                    <input class="form__input" name="q24" id="q24c" type="radio" value="0">Without them switch dont
+                    work
+                </label>
+                <label class="form__label" for="q24d">
+                    <input class="form__input" name="q24" id="q24d" type="radio" value="1"><span
+                        class="code js-correct">When no match is
+                        found</span>
+                </label>
+            </fieldset>
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Question 25
+                </legend>
+                <p class="form__question">The result of the condition statement is always:</p>
+                <label class="form__label" for="q25a">
+                    <input class="form__input" name="q25" id="q25a" type="radio" value="0">A String value
+                </label>
+                <label class="form__label" for="q25b">
+                    <input class="form__input" name="q25" id="q25b" type="radio" value="0">A Number value
+                </label>
+                <label class="form__label" for="q25c">
+                    <input class="form__input" name="q25" id="q25c" type="radio" value="0">var
+                </label>
+                <label class="form__label" for="q25d">
+                    <input class="form__input" name="q25" id="q25d" type="radio" value="1"><span
+                        class="code js-correct">A Boolean
+                        value</span>
+                </label>
+            </fieldset>
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Question 26
+                </legend>
+                <p class="form__question">How many times will the while loop run, if we remove the counting variable
+                    increment statement?
+                </p>
+                <label class="form__label" for="q26a">
+                    <input class="form__input" name="q26" id="q26a" type="radio" value="0">10
+                </label>
+                <label class="form__label" for="q26b">
+                    <input class="form__input" name="q26" id="q26b" type="radio" value="0">1000
+                </label>
+                <label class="form__label" for="q26c">
+                    <input class="form__input" name="q26" id="q26c" type="radio" value="0">99
+                </label>
+                <label class="form__label" for="q26d">
+                    <input class="form__input" name="q26" id="q26d" type="radio" value="1"><span
+                        class="code js-correct">Infinite</span>
+                </label>
+            </fieldset>
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Question 27
+                </legend>
+                <p class="form__question">How many times will the while loop run, if we remove the counting variable
+                    increment statement?
+                </p>
+                <label class="form__label" for="q27a">
+                    <input class="form__input" name="q27" id="q27a" type="radio" value="0">Stops the whole script
+                </label>
+                <label class="form__label" for="q27b">
+                    <input class="form__input" name="q27" id="q27b" type="radio" value="0">Crush website
+                </label>
+                <label class="form__label" for="q27c">
+                    <input class="form__input" name="q27" id="q27c" type="radio" value="0">Ignores the current
+                    iteration and passes to the
+                    next
+                </label>
+                <label class="form__label" for="q27d">
+                    <input class="form__input" name="q27" id="q27d" type="radio" value="1"><span
+                        class="code js-correct">Ends the execution
+                        of the loop </span>
+                </label>
+            </fieldset>
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Question 28
+                </legend>
+                <p class="form__question">What’s the output of this code?<br>var x = 0;<br>while(x<6) {<br>
+                        x++;<br>}<br>document.write(x);
+                </p>
+                <label class="form__label" for="q28a">
+                    <input class="form__input" name="q28" id="q28a" type="radio" value="0">2
+                </label>
+                <label class="form__label" for="q28b">
+                    <input class="form__input" name="q28" id="q28b" type="radio" value="0">4
+                </label>
+                <label class="form__label" for="q28c">
+                    <input class="form__input" name="q28" id="q28c" type="radio" value="0">5
+                </label>
+                <label class="form__label" for="q28d">
+                    <input class="form__input" name="q28" id="q28d" type="radio" value="1"><span
+                        class="code js-correct">6</span>
+                </label>
+            </fieldset>
+
+
+            <button class="form__button" type="submit">Check</button>
+            <button class="form__button js-button"><span class="js-text">Show</span> good answers</button>
+            <button class="form__button" type="reset">Restart Quiz</button>
+        </form>
+        <p class="js-result">Twój wynik to: N/A</p>
+    </div>
+    <footer class="footer">
+        <p class="footer__paragraph">Copyright by D.B.</p>
+    </footer>
+</body>
+
+</html>

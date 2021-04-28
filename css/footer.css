@@ -1,0 +1,12 @@
+.footer {
+    background-color: rgb(250, 170, 20);
+    text-align: center;
+    padding: 10px -50px;
+    border: 7px inset #aa6908;
+    border-radius: 40px 40px 40px 40px;
+    margin-bottom: 20px;
+}
+
+.footer__paragraph {
+    font-weight: bold;
+}

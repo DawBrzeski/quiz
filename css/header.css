@@ -1,0 +1,15 @@
+.header {
+    background-color: rgb(250, 170, 20);
+    text-align: center;
+    padding: 10px -50px;
+    border: 7px inset #aa6908;
+    border-radius: 40px 40px 40px 40px;
+}
+
+.header__mainHeader {
+    font-size: 40px;
+}
+
+.header__paragraph {
+        font-size: 25px;
+}
