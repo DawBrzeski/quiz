@@ -6,12 +6,10 @@ html {
   box-sizing: inherit;
 }
 
-/* https://codepen.io/s155774/pen/vYgvvZX?editors=1000  */
-
 body {
   line-height: 1.5;
   margin: auto;
   font-family: 'Roboto', sans-serif;
   background-color: rgb(247, 236, 208);
-  text-align:center
+  text-align: center
 }
